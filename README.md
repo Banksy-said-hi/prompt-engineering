@@ -22,5 +22,19 @@
 - Machine Learning analysis techniques:
   - Classification: labeling, putting things into categories.
       - example: you can copy paste comments of your Linkedinpost and have GPT process and classify them in a table based on their sentiment, summary of comment, and other crucial information which can be tapped into. No need to data cleansing and training model. 
-  - Clustering: take our data and try to group it together where common properties can be found, segmenting our market aor customers, trying to group them based on attributes, we can identify commonalities 
+  - Clustering: take our data and try to group it together where common properties can be found, segmenting our market or customers, trying to group them based on attributes, we can identify commonalities 
   - Prediction: Asking the bot predict, here is what you see, based on that, what else can be seen?
+  - Recommendation: Based on the available findings, what other possbilities could we have?
+  - In-Context Learning: AI has the ability to spot the patterns and learn, within the prompt you teach it how to craft the answer, for instance you can provide an exampke and go like "complete the pattern...". come on see if this is the input, this is the output I expect, you can get the AI to fill out the mising info in a dataset, "predict the missing category for this dataset ( probably data drawn from a table )
+ 
+- How many examples are ideal to teach a pattern to an AI?
+  - Use lots of examples, as many as you can or AI can accept.
+  - More examples, higher accuracy -> more expensive too
+  - Providing examples is a tool to get better results from AI
+  - You can get the AI to give you some examples, then you choose the good fits and then reiterate over the prompt again
+
+- Template Pattern:
+  - Placeholder: creating a space to be filled in by AI: "Sina is a <insert adjective> person", if you give a template no instruction is needed, AI realizes itself what needs to be done, we can also specfiy format of the input we expect in placeholder, we can be very specific with the condition inside the < >, you can use a combination of < > to strcuture the response desirably in the needed format.
+  - Markdown: cool!
+  - Sophisticated Patterns: combining < > placeholders with markdown ( ##Header2, #Header ) to format the response, can result in self-consistency, referencing footnoes can be utilized
+    
